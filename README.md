@@ -2,6 +2,8 @@
 
 Unityで作成した人間タワーバトルゲーム。
 
+一部の実装は以下の記事を参考にしています：https://blog.livedoor.jp/asamasou/archives/5689856.html
+
 ## 概要
 - Flaskサーバーから画像を受信してUnityで表示
 - 人物を積み上げるゲーム
