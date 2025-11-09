@@ -1,4 +1,5 @@
 # HumanTowerBattle
+
 Unityで作成した人間タワーバトルゲーム。
 
 ## 概要
@@ -6,11 +7,24 @@ Unityで作成した人間タワーバトルゲーム。
 - 人物を積み上げるゲーム
 
 ## 必要環境
-- Unity 2021.3 以降
-- Python 3.x
-- Flask
 
-## 実行方法
-1. Unityでプロジェクトを開く
-2. Flaskサーバーを起動
-3. ゲームを開始
+### Unity側
+- Unity 2021.3 以降
+
+### Python側
+- Python 3.x
+- 以下のライブラリをインストールする必要があります：
+
+| ライブラリ | 用途 |
+|------------|------|
+| Flask | Webサーバー構築 |
+| OpenCV (`cv2`) | カメラ映像取得・画像処理 |
+| MediaPipe | 人物のセグメンテーション |
+| NumPy | マスク処理などの数値演算 |
+
+### インストール方法
+
+以下のコマンドで必要なライブラリをインストールできます：
+
+```bash
+pip install flask opencv-python mediapipe numpy
